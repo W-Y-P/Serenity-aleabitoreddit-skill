@@ -1,40 +1,46 @@
-# Serenity Chokepoint Investing Skill
+# Serenity 卡点投资分析技能
 
-Codex skill for applying Serenity / @aleabitoreddit-style AI and semiconductor supply-chain chokepoint analysis to stock research.
+这是一个用于股票研究的 Codex 技能，用来复用 Serenity（@aleabitoreddit）的 AI 与半导体供应链卡点分析框架。
 
-This repository is a research and analysis tool. It is not financial advice, not an auto-trader, and not a signal service.
-
-## 中文说明
+本仓库是研究与分析工具，不是投资建议、自动交易工具或信号服务。
 
 ### Serenity / @aleabitoreddit 是谁
 
-Serenity（X: [@aleabitoreddit](https://x.com/aleabitoreddit)）是一位以 AI、半导体、光通信、CPO、材料和供应链瓶颈研究出圈的公开投资账号。她的核心方法不是追逐最显眼的 AI 龙头，而是沿着 hyperscaler capex、ASIC/GPU/TPU、光通信、激光器、衬底、外延片、原材料和设备一路向上游追踪，寻找“小市值、低关注、但下游无法绕开的物理卡点”。
+Serenity（X: [@aleabitoreddit](https://x.com/aleabitoreddit)）是一位以 AI、半导体、光通信、CPO、材料和供应链瓶颈研究出圈的公开投资账号，也被许多投资者称为新晋 AI 股神。
+
+她最突出的三点是：
+
+- 2026 年投资回报率自述超过 45 倍，并因此快速出圈。
+- 粉丝在 2026 年 5 月下旬快速增长到 40 万以上，并继续冲到 50 万级别。
+- 长期免费分享研究、推理过程和投资想法，强调让散户也能看到高质量供应链研究。
+
+她的核心方法不是追逐最显眼的 AI 龙头，而是沿着超大规模云厂商资本开支、ASIC/GPU/TPU、光通信、激光器、衬底、外延片、原材料和设备一路向上游追踪，寻找“小市值、低关注、但下游无法绕开的物理卡点”。
 
 ### 公开成就与影响力
 
 以下数字用于描述公开影响力和研究背景：
 
-- 2026-05-26，她在 X 上自述 `YTD: 4502.45%`，约等于 45x 年内收益：[`2059292099728859430`](https://x.com/aleabitoreddit/status/2059292099728859430)。
+- 2026-05-26，她在 X 上自述 `YTD: 4502.45%`，约等于 45 倍年内收益：[`2059292099728859430`](https://x.com/aleabitoreddit/status/2059292099728859430)。
 - 2026-05-27 至 2026-05-30，她连续自述粉丝从 40 万增长到 50 万，并在 2026-05-28 自述约 4 万订阅者：[`2059479203746296219`](https://x.com/aleabitoreddit/status/2059479203746296219)、[`2059989579919401449`](https://x.com/aleabitoreddit/status/2059989579919401449)、[`2060628856445501924`](https://x.com/aleabitoreddit/status/2060628856445501924)。
 - PANews / RootData 相关文章将其包装为“两年 225 倍 / 22,561.99%”的投资故事：[PANews 中文文章](https://www.panewslab.com/zh/articles/019e674b-724f-736c-8077-b2221cf24e39)。
-- ChainCatcher 的方法论文章总结了她的 AI 卡脖子投资框架，包括需求确认、供给稀缺、低关注、价值捕获和催化剂：[ChainCatcher article](https://www.chaincatcher.com/en/article/2268235)。
-- SemiconStocks 的 Serenity Tracker 将她的 AI photonics / CPO 框架整理为多个供应链层级：[Serenity Tracker](https://semiconstocks.com/)。
-- 本 skill 的初始研究语料恢复了 1,965 条公开/镜像推文，并参考了约 5,582 条推文语料和 4 篇 X Articles 进行补充蒸馏。
+- ChainCatcher 的方法论文章总结了她的 AI 卡脖子投资框架，包括需求确认、供给稀缺、低关注、价值捕获和催化剂：[ChainCatcher 文章](https://www.chaincatcher.com/en/article/2268235)。
+- SemiconStocks 的 Serenity Tracker 将她的 AI 光子与 CPO 框架整理为多个供应链层级：[Serenity Tracker](https://semiconstocks.com/)。
+- 本技能的初始研究语料恢复了 1,965 条公开/镜像推文，并参考了约 5,582 条推文语料和 4 篇 X 长文进行补充蒸馏。
 
-### 这个 skill 做什么
+### 这个技能做什么
 
 `serenity-chokepoint-investing` 将 Serenity 的公开研究风格蒸馏成可复用的股票分析流程：
 
-- 供应链卡点识别：从下游 AI capex 追踪到上游物理瓶颈。
-- 多跳 BOM / OSINT mapping：区分 substrate、epiwafer、foundry、laser、transceiver、module、system integrator。
+- 供应链卡点识别：从下游 AI 资本开支追踪到上游物理瓶颈。
+- 多跳物料清单与开源情报映射：区分衬底、外延片、晶圆代工、激光器、光模块、封装、系统集成商等不同环节。
 - 财务翻译：把瓶颈逻辑转成收入、利润率、现金流、融资和稀释场景。
-- 催化剂与失效条件：跟踪 earnings、客户认证、政府补贴、uplisting、index inclusion、short interest、宏观冲击等。
-- 风险审查：GAAP margin、ATM/convert/warrant、客户集中、弱交易对手、过度社交反身性、options/IV 风险。
-- 案例模板：AXTI、SIVE、SOI、AAOI/LITE/COHR、NBIS、欧洲 photonics 和 neocloud 等模式。
+- 催化剂与失效条件：跟踪财报、客户认证、政府补贴、上市场所提升、指数纳入、空头仓位、宏观冲击等。
+- 风险审查：GAAP 利润率、ATM 增发、可转债、认股权证、客户集中、弱交易对手、过度社交反身性、期权与隐含波动率风险。
+- 案例模板：AXTI、SIVE、SOI、AAOI/LITE/COHR、NBIS、欧洲光子产业链和新型云计算基础设施等模式。
 
 ### 如何使用
 
-把仓库克隆到 Codex skills 目录：
+把仓库克隆到 Codex 技能目录：
 
 ```bash
 git clone https://github.com/W-Y-P/Serenity-aleabitoreddit-skill.git ~/.codex/skills/serenity-chokepoint-investing
@@ -43,18 +49,12 @@ git clone https://github.com/W-Y-P/Serenity-aleabitoreddit-skill.git ~/.codex/sk
 在 Codex 中显式调用：
 
 ```text
-Use $serenity-chokepoint-investing to analyze SIVE as an AI CPO laser chokepoint.
-```
-
-也可以用中文：
-
-```text
 使用 $serenity-chokepoint-investing 分析 AXTI 是否是 AI 光通信 InP 衬底卡点。
 ```
 
-建议提问方式：
+推荐提问方式：
 
-- “用 Serenity 框架分析这个 ticker 的供应链位置、证据质量、财务转化、催化剂和失效条件。”
+- “用 Serenity 框架分析这个股票代码的供应链位置、证据质量、财务转化、催化剂和失效条件。”
 - “判断这家公司是真卡点、伪 AI 叙事，还是已经被市场充分定价。”
 - “按 Serenity 风格审查这个投资组合里哪些名字有供应链卡点、稀释、客户集中或估值风险。”
 - “使用 $serenity-chokepoint-investing 在 A 股中分析并推荐符合 AI 供应链卡点框架的股票候选，说明推荐逻辑、证据质量、催化剂和主要风险。”
@@ -76,13 +76,15 @@ Use $serenity-chokepoint-investing to analyze SIVE as an AI CPO laser chokepoint
 
 ### 重要免责声明
 
-Serenity 的收益率、粉丝数、持仓、订阅数和案例回报多为自述、镜像观测或媒体报道。本 skill 只把这些内容当作研究背景和影响力变量。每个股票结论都需要用 filings、transcripts、company releases、客户披露、技术文档和当前市场数据重新验证。
+Serenity 的收益率、粉丝数、持仓、订阅数和案例回报多为自述、镜像观测或媒体报道。本技能只把这些内容当作研究背景和影响力变量。每个股票结论都需要用公司公告、财报、电话会纪要、客户披露、技术文档和当前市场数据重新验证。
 
 ## English
 
 ### Who Is Serenity / @aleabitoreddit?
 
-Serenity ([@aleabitoreddit](https://x.com/aleabitoreddit) on X) is a public investor and AI/semiconductor supply-chain researcher known for focusing on physical bottlenecks in AI infrastructure. Her style is to look past the obvious AI winners and trace the supply chain upstream from hyperscaler capex to ASICs/GPUs/TPUs, optics, lasers, substrates, epiwafers, raw materials, and specialized tools.
+Serenity ([@aleabitoreddit](https://x.com/aleabitoreddit) on X) is a public investor and AI/semiconductor supply-chain researcher known for focusing on physical bottlenecks in AI infrastructure. Many followers frame her as an emerging AI-stock star. Her public profile grew rapidly after self-reported 2026 returns above 45x, and her work is especially known for sharing detailed research and reasoning for free.
+
+Her style is to look past the obvious AI winners and trace the supply chain upstream from hyperscaler capex to ASICs/GPUs/TPUs, optics, lasers, substrates, epiwafers, raw materials, and specialized tools.
 
 The central question is: which small, underfollowed physical node can block or tax a much larger downstream buildout?
 
