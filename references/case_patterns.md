@@ -1,0 +1,161 @@
+# Case Patterns
+
+Snapshot date: 2026-05-31.
+
+These are archetypes distilled from the recovered corpus and reviewed public summaries. They are templates for analysis, not current recommendations.
+
+## AXTI / InP Substrate Bottleneck
+
+Pattern:
+
+- Downstream: AI data-center optics, high-speed lasers, photodetectors, silicon photonics light sources.
+- Bottleneck candidate: InP substrates and related raw material control.
+- Scarcity logic: concentrated supply, qualification barriers, long capacity ramp, China/US supply-chain sensitivity.
+- Validation routes: company filings, substrate market-share reports, customer/peer transcripts, export-control or shortage references.
+- Key risk: market-share estimates can be wrong; InP demand may be delayed or offset by alternate architectures.
+
+Use this case to test whether a small material supplier can become a strategic bottleneck when the system moves toward photonics.
+
+## SIVE / External Light Source And CPO Laser Chokepoint
+
+Pattern:
+
+- Downstream: CPO, external light sources, 1.6T/3.2T optics, hyperscaler AI networking.
+- Bottleneck candidate: CW/DFB laser source IP and qualified supplier relationships.
+- Scarcity logic: CPO architecture needs reliable light sources; qualification and customer design-ins can be slow; small company may be undercovered relative to downstream importance.
+- Catalysts seen in corpus: opportunity-pipeline growth, customer qualification clues, CHIPS Act/government support, Nasdaq/uplisting discussion, MSCI/index flow, short interest.
+- Validation routes: annual reports, interim reports, customer confirmations, grant/award documents, transcript language on margins and demand.
+- Key risk: pipeline is not revenue; customer names may be inferred; financing needs and local-market volatility can dominate.
+
+Use this case to distinguish a future architecture chokepoint from a current-revenue story.
+
+## SOI / Soitec Substrate Monopoly Pattern
+
+Pattern:
+
+- Downstream: silicon photonics, RF, automotive, AI optical architectures.
+- Bottleneck candidate: SOI substrates and licensing/market-share position.
+- Scarcity logic: substrate know-how and customer qualification create a hard-to-replace upstream layer.
+- Catalysts seen in corpus: depressed smartphone-cycle valuation, Nvidia/GTC photonics attention, analyst skepticism followed by institutional repricing.
+- Validation routes: Soitec reports, customer exposure, market-share data, capex plans, order book, peer checks.
+- Key risk: cyclical end markets can mask or delay AI photonics upside; market may reprice before earnings catch up.
+
+Use this case for "old business plus new architecture" setups where legacy weakness hides future option value.
+
+## AAOI / LITE / COHR / Optical Transceiver Map
+
+Pattern:
+
+- Downstream: hyperscaler networking, 800G/1.6T/3.2T optical modules, TPU/Trainium/Maia and AI cluster interconnect.
+- Bottleneck candidate: optical transceiver suppliers and related laser/module capacity.
+- Scarcity logic: visible end of the photonics chain reprices first, but profit pools may rotate upstream or into specific qualified suppliers.
+- Catalysts seen in corpus: customer capex, Nvidia optical investment, peer earnings, backlog, margin guidance.
+- Validation routes: earnings calls, named customer exposure, purchase commitments, backlog, capacity expansion.
+- Key risk: these names can become consensus quickly; gross margin and competition determine whether demand converts into durable economics.
+
+Use this case to map a theme across visible assemblers and hidden upstream constraints.
+
+## European Photonics And Hardware Nodes
+
+Pattern examples from self-reported corpus list:
+
+- RPI: agentic AI hardware demand / edge node thesis.
+- LPK: glass-core substrates / specialty process exposure.
+- IQE: epiwafer capacity and downstream photonics discovery.
+- ALRIB: quantum/photonics buyer synthesis and duopoly-style framing.
+- XFAB: specialty foundry, silicon photonics, InP-on-silicon, and SiC/power angle.
+
+Shared setup:
+
+- Foreign or regional listing with limited US attention.
+- Hard technical niche that screens poorly on old financials.
+- Potential repricing when US retail/institutions discover the supply-chain role.
+
+Key risk:
+
+- Cross-market liquidity, translation errors, settlement/friction, local disclosure standards, and reflexive retail flows.
+
+Use this pattern when analyzing non-US small/mid caps connected to AI infrastructure.
+
+## NBIS / Neocloud And Compute Infrastructure
+
+Pattern:
+
+- Downstream: AI compute demand, GPU clusters, model training/inference capacity, hyperscaler or enterprise demand.
+- Bottleneck candidate: access to deployed compute, power, data-center capacity, financing, and customer contracts.
+- Scarcity logic: compute capacity can be scarce, but it is more capital-intensive and financially fragile than a pure component chokepoint.
+- Validation routes: contracted revenue, customer quality, capex financing, utilization, power access, depreciation, debt terms.
+- Key risk: financing and dilution can overwhelm the theme; headline capacity is not the same as profitable utilization.
+
+Use this case to force a stronger financial model when the bottleneck is capital-heavy infrastructure.
+
+## Neocloud / Signed ARR / Financing Quality
+
+Pattern:
+
+- Downstream: AI training and inference demand that needs deployed GPU capacity, power, data centers, networking, and financing.
+- Bottleneck candidate: contracted compute supply, power access, customer commitment, and financing terms.
+- Scarcity logic: capacity is scarce, but scarcity alone is not enough if the company must dilute heavily or finance buildout at uneconomic cost.
+- Validation routes: signed contracts, take-or-pay terms, customer credit quality, strategic investor participation, debt maturity, interest cost, depreciation, utilization, and power availability.
+- Key risk: headline contract value can hide low margins, weak counterparties, capex burden, or shareholder dilution.
+
+Use this pattern whenever the "bottleneck" is infrastructure rather than a small physical component.
+
+## Mag7 Customer Concentration
+
+Pattern:
+
+- Positive version: a small supplier is qualified by several hyperscalers or top-tier semiconductor customers.
+- Negative version: a supplier depends on one customer and can be designed out.
+- Validation routes: customer concentration disclosures, purchase commitments, named partnerships, customer capex roadmaps, and peer supply-chain comments.
+- Key risk: inferred customer mapping is not the same as disclosed revenue.
+
+Use this pattern to avoid overvaluing vague "AI customer" language.
+
+## GAAP Margin And Accounting Quality
+
+Pattern:
+
+- Downstream: capital-heavy AI infrastructure, software-like orchestration layers, or component suppliers with different disclosure styles.
+- Bottleneck candidate: company that appears lower quality only because it reports more honestly.
+- Validation routes: GAAP gross margin, operating margin, SBC, depreciation, interest income, capex, cash conversion, and segment definitions.
+- Key risk: non-GAAP margin can make a weak business look like a premium asset.
+
+Use this pattern before comparing peers in neocloud, data-center, software, or hardware names.
+
+## Options IV / Vega And Macro Overlay
+
+Pattern:
+
+- Downstream: broad sector shift hidden inside an ETF, index, or "boring" wrapper.
+- Bottleneck candidate: not a company, but an underpriced volatility structure around a changing exposure.
+- Validation routes: current implied volatility, realized volatility, constituent weights, sector exposure, rate/macro regime, and liquidity.
+- Key risk: options can expire worthless; this is a timing and structure overlay, not a fundamental stock thesis.
+
+Use this pattern only when the user explicitly asks for options, hedging, or portfolio structure.
+
+## Risk-Call Pattern
+
+The corpus also contains negative calls on promotional or heavily diluted names.
+
+Checklist:
+
+- Is NAV or cash being used to justify a huge premium?
+- Is an ATM, shelf, convert, or private placement transferring value from retail to issuer?
+- Are influencers substituting marketing for customer evidence?
+- Does the company have cash because it diluted shareholders rather than because the product is working?
+- Would the bull case survive fully diluted share count?
+
+Use this pattern to avoid turning "chokepoint" into a blanket excuse for paying any price.
+
+## X Article Layer
+
+WOOK98's supplemental repo identifies four long-form X Articles as article-backed context: a January upstream bottleneck article, a February crypto-policy article, a March robotics supply-chain article, and a May SIVE CPO laser article.
+
+Use these as routing hints:
+
+- If the topic is SIVE/CPO lasers, prioritize customer-path evidence and distinguish public links from inferred NDA/customer paths.
+- If the topic is critical materials or robotics, broaden the map to rare earths, magnets, germanium, specialty metals, and manufacturing inputs.
+- If the topic is crypto, treat it as outside the default AI/semi workflow unless the user explicitly asks.
+
+Do not store or reproduce full X Article text in this skill.

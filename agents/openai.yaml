@@ -1,0 +1,4 @@
+interface:
+  display_name: "Serenity Chokepoint Investing"
+  short_description: "Analyze stocks via AI supply-chain chokepoints"
+  default_prompt: "Use $serenity-chokepoint-investing to analyze this stock as an AI supply-chain chokepoint thesis."
