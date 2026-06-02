@@ -1,11 +1,13 @@
 ---
 name: serenity-chokepoint-investing
-description: "Use when analyzing stocks through @aleabitoreddit/Serenity-style supply-chain chokepoint thinking: AI/semi photonics, scarce physical bottlenecks, small-cap monopoly or duopoly nodes, catalyst timing, valuation mismatch, and risk controls. This skill supports investment research and stock analysis; it does not provide personalized financial advice."
+description: "Use when analyzing stocks through @aleabitoreddit/Serenity-style supply-chain chokepoint thinking: AI/semi photonics, scarce physical bottlenecks, small-cap monopoly or duopoly nodes, catalyst timing, valuation mismatch, and risk controls. Model-agnostic skill for Codex, Claude Code, Cursor, Gemini CLI, Windsurf, and other agents that support SKILL.md. This skill supports investment research and stock analysis; it does not provide personalized financial advice."
 ---
 
 # Serenity Chokepoint Investing
 
 Use this skill to turn an investment idea into a structured chokepoint thesis. The goal is not to copy any public trader's positions. The goal is to test whether a company controls a scarce, hard-to-substitute physical layer that captures value as downstream demand expands.
+
+This skill is model-agnostic. Any agent that can load a `SKILL.md` file should use these instructions the same way. Do not rely on Codex-only syntax in the final answer; if the host agent does not support `$skill-name` invocation, treat any explicit request for "Serenity", "@aleabitoreddit", "chokepoint investing", "AI supply-chain bottlenecks", or this skill's name as the trigger.
 
 Respond in the user's language. If the request is in Chinese, keep the research output in Chinese while preserving ticker symbols, filings, and source titles as written.
 
