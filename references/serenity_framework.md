@@ -1,6 +1,6 @@
 # Serenity Framework
 
-Snapshot date: 2026-05-31.
+Snapshot date: 2026-06-12.
 
 This is the distilled investment process inferred from the recovered @aleabitoreddit corpus and reviewed public summaries. It is a research framework, not a trading signal.
 
@@ -28,6 +28,9 @@ Most large moves in the corpus are tied to a transition:
 
 - Electrical interconnect to optical interconnect.
 - Pluggable optics to CPO/external light source architectures.
+- 800G/1.6T/3.2T optics to LRO/LPO/CPO and rack-scale optical fabrics.
+- Server power delivery toward 800V DC, SiC/GaN, power modules, and higher-density data-center infrastructure.
+- AI memory pressure that shifts attention from headline accelerators to upstream capacity bottlenecks.
 - Generic AI capex to named hyperscaler ASIC supply chains.
 - Commodity hardware to scarce substrates, lasers, testing, and packaging.
 - Local/legacy listings to global institutional attention.
@@ -52,9 +55,13 @@ Use this ladder:
 | Level | Evidence type | Role |
 | --- | --- | --- |
 | A | Filings, annual reports, official releases, earnings calls, customer announcements, government awards | Can validate or falsify the thesis. |
-| B | Technical papers, patents, standards, BOM analysis, industry reports, supplier/customer pages, hiring/procurement | Supports supply-chain mapping and bottleneck mechanics. |
-| C | Peer transcripts, sell-side notes, expert commentary, media reports | Useful context, but check incentives and timestamps. |
-| D | Social posts, third-party trackers, mirror sites | Hypothesis generation only. |
+| B | Purchase orders, named design wins, production orders, customer qualification language, signed contracts | Strong validation if economics, timing, and counterparty quality are clear. |
+| C | Reference designs, ecosystem membership, foundry-platform inclusion, customer evaluation, private-company architecture validation | Stronger than social inference, weaker than recognized revenue. |
+| D | Technical papers, patents, standards, BOM analysis, industry reports, supplier/customer pages, hiring/procurement | Supports supply-chain mapping and bottleneck mechanics. |
+| E | Peer transcripts, sell-side notes, expert commentary, media reports | Useful context, but check incentives and timestamps. |
+| F | Social posts, third-party trackers, mirror sites, search snippets | Hypothesis generation only. |
+
+Private companies can validate an architecture direction even when they are not investable securities. Map them as proof nodes in the supply chain, not as recommendations.
 
 ### 5. Catalyst Timing
 
@@ -66,6 +73,8 @@ Recurring catalysts:
 - Customer product ramps, such as AI ASICs, optical transceivers, or CPO deployments.
 - Government funding, CHIPS Act awards, export controls, or national-security framing.
 - Uplisting, dual listing, index inclusion, or forced institutional ownership.
+- Reference-design inclusion, ecosystem announcements, or foundry-platform validation.
+- 13G/major-holder disclosures, investor-base migration, passive/index flows, or cross-listing that changes the buyer base.
 - Short interest, crowded local shorts, or regional investor misunderstanding.
 - Conferences and technical events where architecture transitions become mainstream.
 
@@ -81,7 +90,7 @@ Translate the thesis:
 - What capex, working capital, and dilution are required to scale?
 - How much of the future is already in the stock?
 
-### 7. Anti-Hype And Dilution Audit
+### 7. Financing Quality And Dilution Audit
 
 The corpus repeatedly calls out names where narrative is stronger than economics. Before accepting a thesis, audit:
 
@@ -92,7 +101,62 @@ The corpus repeatedly calls out names where narrative is stronger than economics
 - Share count drift and management incentives.
 - Whether the public thesis itself has created crowding.
 
-### 8. Reflexivity
+Not all dilution is equal:
+
+- Constructive: one-time or strategic financing that funds capacity, IP acquisition, listing access, customer delivery, or balance-sheet cleanup.
+- Risky: financing needed before evidence converts, with unclear use of proceeds or heavy valuation leakage.
+- Toxic: deep-discount issuance, death-spiral converts, warrant-heavy deals, active ATMs into retail enthusiasm, or management behavior that repeatedly transfers value away from holders.
+
+### 8. Listing Venue And Jurisdiction Arbitrage
+
+For foreign-listed or locally misunderstood hardware names, valuation can change when the investor base changes.
+
+Audit:
+
+- Primary listing, ADR/dual-listing status, settlement friction, and liquidity.
+- Index eligibility, passive ownership, and potential institutional mandates.
+- Whether the company needs a US/EU parent, subsidiary, or local operating structure to access customers, CHIPS-style funding, or strategic M&A.
+- Whether the listing change creates real financing/capital access or only a temporary retail rerating.
+
+### 9. Chain Fluency And Optics Vocabulary
+
+Do not collapse all optical or semiconductor terms into one bucket.
+
+For photonics/CPO work, separate:
+
+- Substrate: InP, SOI, glass core, SiC/GaN where relevant.
+- Epi/foundry: epiwafer growth, specialty foundry, InP-on-silicon, silicon photonics platform.
+- Light source: laser array, CW/DFB laser, external light source, light engine.
+- Module/system: pluggable transceiver, LRO/LPO, CPO, switch, package/test, EMS/manufacturing partner.
+
+The visible assembler may reprice first; the durable profit pool may sit upstream if the upstream layer is scarcer.
+
+### 10. Volatility Versus Invalidation
+
+Microcap hardware theses can move violently before the income statement catches up. A drawdown does not invalidate the architecture thesis by itself.
+
+Invalidate through:
+
+- Lost design-in or customer loss.
+- Substitute qualification that removes scarcity.
+- Volume-ramp breakdown or manufacturing yield shortfall.
+- Margin collapse, uneconomic unit economics, or backlog that does not convert.
+- Excessive dilution, covenant stress, or financing that breaks shareholder economics.
+- Demand rollover or architecture reversal.
+
+### 11. Policy-Backed Sovereignty Nodes
+
+Government policy can turn a small supply-chain node into a strategic asset, especially in photonics, substrates, specialty foundry, advanced packaging, power, and critical materials.
+
+Checklist:
+
+- Source document: law, policy paper, award notice, export-control action, or official speech.
+- Eligible technology: map the exact layer, not the theme label.
+- Funding mechanism and timing: grant, loan, tax credit, procurement, export restriction, or local-content requirement.
+- Named company exposure: disclosed eligibility, facility location, customer role, or inferred but testable connection.
+- Valuation translation: whether the market cap already prices the policy benefit.
+
+### 12. Reflexivity
 
 Serenity's follower scale can move illiquid stocks. Treat attention as a market variable:
 
@@ -100,6 +164,8 @@ Serenity's follower scale can move illiquid stocks. Treat attention as a market 
 - It can compress future returns after a thesis becomes crowded.
 - It can make price action look like proof even when only social demand changed.
 - It raises exit-risk and liquidity-risk requirements for microcaps.
+- AI tools, search, public threads, and retail distribution can compress discovery cycles: retail may find the bottleneck first, larger retail may follow, and institutions may arrive later.
+- The same distribution edge increases copycat research, short-term crowding, and exit-window fragility.
 
 ## Supplemental Principles From WOOK98
 
@@ -224,15 +290,16 @@ Use this checklist on any new stock:
 3. Mark each layer as abundant, constrained, or unknown.
 4. Identify the candidate's exact layer and why it is hard to replace.
 5. Build a primary-source evidence table.
-6. Check chain fluency: substrate, epiwafer, foundry, laser, transceiver, module, package, and system roles must be distinct.
+6. Check chain fluency: substrate, epiwafer, foundry, laser array, external light source, light engine, transceiver, LRO/LPO/CPO, package/test, EMS, and system roles must be distinct.
 7. Estimate unit economics and revenue translation.
 8. Compare signed/qualified demand against market cap and financing needs.
-9. Audit GAAP margin quality, dilution, balance sheet, and liquidity.
+9. Audit GAAP margin quality, dilution quality, balance sheet, and liquidity.
 10. Identify customer and counterparty quality.
-11. List catalysts by date/window.
-12. Add positioning overlays only after the fundamental map is built.
-13. Write invalidation tests that would make the thesis wrong.
-14. Decide whether the edge is still underpriced after public attention.
+11. Test listing venue, policy eligibility, and investor-base migration.
+12. List catalysts by date/window.
+13. Add positioning overlays only after the fundamental map is built.
+14. Write invalidation tests that would make the thesis wrong.
+15. Decide whether the edge is still underpriced after public attention.
 
 ## Common Failure Modes
 
@@ -240,7 +307,10 @@ Use this checklist on any new stock:
 - Assuming a monopoly from one post without market-share evidence.
 - Ignoring customer qualification timelines.
 - Treating revenue pipeline as recognized revenue.
+- Treating reference-design inclusion or ecosystem membership as recognized revenue.
 - Missing dilution because the product story is exciting.
+- Treating all dilution as equally bad or equally harmless without checking proceeds, structure, and timing.
 - Entering after a viral move without recalculating odds.
 - Using Serenity's conviction as a substitute for primary research.
 - Treating WOOK98 or any other third-party distilled repository as primary evidence.
+- Treating price volatility as proof of thesis failure without checking the actual invalidation tests.

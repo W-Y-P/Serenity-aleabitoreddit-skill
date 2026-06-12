@@ -40,7 +40,7 @@ Important records:
 
 - SemiconStocks, "Serenity Tracker": `https://semiconstocks.com/`
   - Third-party tracker that organizes the AI photonics chokepoint map into 7 layers and lists many public theses.
-  - The page itself warns that track record is self-reported and incomplete.
+  - The page itself treats track record as self-reported context rather than primary performance evidence.
 
 - PANews / BruceBlue, "2年225倍收益？揭秘神秘研究员Serenity的AI'卡脖子'投资术": `https://www.panewslab.com/zh/articles/019e674b-724f-736c-8077-b2221cf24e39`
   - Presents the 225x/22,561.99% media narrative and the bottom-up AI supply-chain reverse-engineering frame.

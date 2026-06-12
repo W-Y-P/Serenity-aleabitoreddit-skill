@@ -1,10 +1,10 @@
 # Source Notes
 
-Evidence snapshot date: 2026-05-31.
+Evidence snapshot date: 2026-06-12.
 
 ## Corpus Snapshot
 
-This skill was originally distilled from a local research corpus. The raw corpus is not included in this public skill repository; preserve full tweet text outside the public skill package when doing private research.
+This skill was originally distilled from a local research corpus. Preserve raw post text in private research artifacts and keep the public skill package focused on reusable workflow, evidence rules, and case patterns.
 
 - Unique records recovered: 1,965.
 - Official X `statuses_count` observed in captured profile state: 6,916.
@@ -30,11 +30,20 @@ Input source summary:
 | `instalker` | 1,813 | 2026-05-31 | 2025-11-17 | Structured mirror JSON, widest coverage. |
 | `twiscan` | 40 | 2026-05-29 | 2025-12-26 | HTML mirror with inferred date strings. |
 
-The denominator is X's profile-level statuses count, not a clean public-post count. It can include replies and other activity, and deleted or unavailable posts cannot be recovered from public mirrors.
+The denominator is X's profile-level statuses count rather than a clean public-post count. It can include replies and other activity, so use it as profile-activity context.
+
+## June 2026 Incremental Snapshot
+
+After the original corpus snapshot, an incremental pass was performed on 2026-06-12 for posts after 2026-05-30.
+
+- The incremental table combines local recovered full-text records through 2026-05-31 with public search-index snippets and mirror-feed snippets for 2026-06-01 to 2026-06-12.
+- A local staging table captured 77 investment- or skill-relevant rows from 2026-05-30 to 2026-06-12.
+- Use this increment for updating recurring framework moves and source-routing.
+- Durable themes extracted from the increment: AAOI standalone optics case, SIVE multi-hop proof chain, reference-design/foundry-platform evidence tier, CPO/LPO/LRO vocabulary, constructive versus toxic dilution, listing venue and investor-base migration, volatility versus invalidation, policy-backed sovereignty nodes, information-cycle compression, A-share market adaptation, and 800V DC/power-delivery adjacency.
 
 ## Source Tiers
 
-- Tier 1: Original public posts or direct mirrors of @aleabitoreddit's X timeline. X is the primary venue, but mirrors can be stale or incomplete.
+- Tier 1: Original public posts or direct mirrors of @aleabitoreddit's X timeline. X is the primary venue; timestamp mirrors and cross-check important claims.
 - Tier 2: Company filings, releases, reports, and transcripts used to validate or falsify claims from the posts.
 - Tier 3: Third-party trackers and media articles. Useful for synthesis, but not proof of performance or current holdings.
 
@@ -85,6 +94,11 @@ The denominator is X's profile-level statuses count, not a clean public-post cou
   - Company source confirming Q1 2026 revenue of SEK 61.9m, revenue pressure from defense-budget timing and FX, and a stated opportunity-pipeline growth figure.
   - Use this as an example of validating a social thesis against company-reported operating data, including negative data.
 
+- June 2026 incremental research file: `references/update_2026_06.md`
+  - Staging notes from the post-2026-05-30 evidence snapshot.
+  - Useful for new optics, SIVE, AAOI, policy, dilution, listing, reflexivity, and A-share extension logic.
+  - Treat post-level snippets as leads unless the row points to a primary company, customer, filing, transcript, or policy source.
+
 See `achievements_and_sources.md` for date-stamped achievement claims and reliability labels.
 
 ## Distilled Patterns
@@ -95,13 +109,19 @@ See `achievements_and_sources.md` for date-stamped achievement claims and reliab
 - Look for a technical architecture shift that changes the demand curve, such as CPO replacing or augmenting traditional interconnect.
 - Track government funding, sovereignty language, export controls, and customer qualification as validation.
 - Keep a dilution and capital-structure audit beside every growth thesis.
+- Distinguish constructive financing from toxic dilution by checking use of proceeds, structure, timing, and shareholder leakage.
+- Treat listing venue, investor-base migration, index eligibility, and ownership filings as valuation/timing variables, not product validation.
+- Add reference-design, ecosystem, foundry-platform, and customer-evaluation signals as a middle evidence tier below recognized revenue.
+- Keep photonics chain vocabulary precise: substrate, epi, foundry, laser, external light source, light engine, pluggable transceiver, LRO/LPO, CPO, package/test, and EMS are not interchangeable.
 - Treat violent volatility as expected in microcaps, but not as proof that the thesis is intact.
+- Conversely, do not treat volatility as thesis invalidation unless a specific invalidation test fails.
 - Treat audience growth as a reflexivity variable: it affects price impact and crowding, but it is not fundamental validation.
+- Recognize information-cycle compression: public research, AI tools, and retail distribution can move a thesis from obscure to crowded faster than older institutional cycles.
 - Add financial-quality lenses from WOOK98's synthesis: signed ARR versus market cap, GAAP margins over non-GAAP claims, Mag7/customer concentration, financing quality, macro/flow/IV overlays, and conviction tiering.
 
 ## Evidence Limits
 
-- The available public crawl is partial and may miss deleted, edited, subscriber-only, or reply-only content.
+- Search-index snippets are routing evidence: use them to locate status URLs, themes, and primary documents.
 - Track record claims are not audited and may suffer survivorship bias.
 - Third-party trackers can paraphrase incorrectly or lag current position changes.
 - Third-party GitHub distillations can be useful but may contain selection bias, stale thesis state, or unverified backtest/calibration claims.

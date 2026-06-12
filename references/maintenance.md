@@ -24,7 +24,7 @@ Skip:
 
 1. Originating/private corpus records and official X status URLs.
 2. Company filings, releases, transcripts, technical papers, and official customer/vendor disclosures.
-3. Structured mirrors used only to recover missing public posts or metadata.
+3. Structured mirrors used only to cross-check public posts or metadata.
 4. Third-party trackers, articles, and GitHub distillations used as synthesis and lead generation.
 
 When WOOK98 or another repository adds an idea, classify it as `third-party distillation` until independently checked.

@@ -1,13 +1,11 @@
 ---
 name: serenity-chokepoint-investing
-description: "Use when analyzing stocks through @aleabitoreddit/Serenity-style supply-chain chokepoint thinking: AI/semi photonics, scarce physical bottlenecks, small-cap monopoly or duopoly nodes, catalyst timing, valuation mismatch, and risk controls. Model-agnostic skill for Codex, Claude Code, Cursor, Gemini CLI, Windsurf, and other agents that support SKILL.md. This skill supports investment research and stock analysis; it does not provide personalized financial advice."
+description: "Use when analyzing stocks through @aleabitoreddit/Serenity-style supply-chain chokepoint thinking: AI/semi photonics, scarce physical bottlenecks, small-cap monopoly or duopoly nodes, catalyst timing, valuation mismatch, and risk controls. This skill supports investment research and stock analysis; it does not provide personalized financial advice."
 ---
 
 # Serenity Chokepoint Investing
 
 Use this skill to turn an investment idea into a structured chokepoint thesis. The goal is not to copy any public trader's positions. The goal is to test whether a company controls a scarce, hard-to-substitute physical layer that captures value as downstream demand expands.
-
-This skill is model-agnostic. Any agent that can load a `SKILL.md` file should use these instructions the same way. Do not rely on Codex-only syntax in the final answer; if the host agent does not support `$skill-name` invocation, treat any explicit request for "Serenity", "@aleabitoreddit", "chokepoint investing", "AI supply-chain bottlenecks", or this skill's name as the trigger.
 
 Respond in the user's language. If the request is in Chinese, keep the research output in Chinese while preserving ticker symbols, filings, and source titles as written.
 
@@ -19,6 +17,7 @@ Read only what the task needs:
 - `references/achievements_and_sources.md`: Serenity/@aleabitoreddit public achievements, follower growth, performance claims, and verification status.
 - `references/serenity_framework.md`: distilled investment philosophy and reusable research moves.
 - `references/case_patterns.md`: recurring case archetypes such as AXTI, SIVE, SOI, AAOI/LITE/COHR, European photonics names, and NBIS.
+- `references/update_2026_06.md`: staged June 2026 incremental notes from post/search-index evidence; use for new optics, policy, dilution, and reflexivity updates.
 - `references/maintenance.md`: rules for updating this skill from new posts or outside research without turning it into a noisy transcript.
 
 ## Guardrails
@@ -30,6 +29,9 @@ Read only what the task needs:
 - For microcaps, explicitly discuss liquidity, float, dilution, hype reflexivity, and exit risk.
 - Never present Serenity's self-reported returns or follower growth as audited evidence. Label them as self-reported, mirror-observed, or media-reported.
 - Treat options, margin, short-squeeze setups, and IV/vega trades as advanced risk overlays. Do not convert them into trade instructions or position-size prescriptions.
+- Do not conflate reference-design inclusion, ecosystem membership, foundry-platform validation, or customer engineering work with purchase orders or recognized revenue.
+- Do not treat all dilution the same. Distinguish constructive financing that unlocks IP, capacity, listing access, or customer delivery from toxic financing that transfers value away from shareholders.
+- Do not invalidate a hardware architecture thesis from price volatility alone; invalidate it through lost design-ins, substitute qualification, ramp breakdowns, margin collapse, excessive dilution, or demand rollover.
 
 For source context and known evidence limits, read `references/source_notes.md` when the user asks about Serenity, @aleabitoreddit, AXTI, SIVE, AAOI, SOI/SLOIF, IQE, XFAB, or the origin of this framework.
 
@@ -58,6 +60,7 @@ Key ideas:
    - For AI photonics, start with these layers: raw materials, pBN crucibles/growth equipment, InP or SOI substrates, epiwafers, CW lasers, optical transceivers/assembly, testing/qualification, fiber/cabling.
    - Do not assume the visible product assembler owns the profit pool; test upstream and midstream nodes separately.
    - Enforce chain fluency: do not conflate substrate, epiwafer, foundry, laser, transceiver, module, package, or system-integrator roles.
+   - For optics, label `laser array`, `external light source`, `light engine`, `pluggable transceiver`, `LRO/LPO`, `CPO`, `foundry platform`, `package/test`, and `EMS/manufacturing partner` separately.
 
 3. Score the chokepoint.
    - Irreplaceability: Can customers qualify alternatives quickly?
@@ -69,6 +72,7 @@ Key ideas:
 
 4. Build the evidence ladder.
    - Prefer primary sources: annual reports, 10-K/20-F/6-K/8-K, company presentations, earnings transcripts, customer press releases, and government awards.
+   - Classify reference designs, ecosystem memberships, foundry platforms, customer evaluations, and private-company architecture validation as a middle evidence tier: stronger than social inference, weaker than signed orders or recognized revenue.
    - Then use technical sources: papers, patents, bill-of-materials analysis, industry notes, standards, supplier lists, import/export data, and hiring/procurement signals.
    - Use social-media and third-party trackers only to generate hypotheses or locate source documents.
    - Require at least two independent confirmations before labeling a company a chokepoint.
@@ -80,12 +84,14 @@ Key ideas:
    - Signed contract ARR or take-or-pay commitments versus market cap, when applicable.
    - GAAP margin quality versus non-GAAP or cherry-picked segment margin claims.
    - Customer/counterparty quality: AAA hyperscaler, strategic investor, cash-burning startup, local government, or retail-only narrative.
+   - Financing quality: strategic capital, listing-driven liquidity, and capacity/IP funding are different from ATMs, warrants, death-spiral structures, or promotion-funded cash.
    - Unit economics: how many units per downstream deployment, selling price, gross margin, and ramp timing.
    - Base, bull, and bear cases with explicit assumptions.
    - Dilution audit: ATM programs, converts, warrants, shelf registrations, private placements, and insider selling.
 
 6. Track catalysts and invalidations.
    - Catalysts: earnings calls, customer qualification, volume production starts, government funding, export controls, index inclusion, uplisting, industry conferences, and supply warnings.
+   - Treat listing venue, investor-base migration, ownership filings, policy eligibility, and index inclusion as timing or valuation-translation catalysts, not as proof of the product thesis.
    - Invalidations: substitute qualification, customer loss, failure to ramp, margin collapse, excessive dilution, demand pull-in, inventory glut, or regulatory/geopolitical reversal.
    - Update the thesis when capital structure or evidence changes, even if the original product thesis remains intact.
    - Explicitly separate "price moved after a post" from "the company validated the thesis." The first is market reflexivity; the second needs primary evidence.

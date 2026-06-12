@@ -1,6 +1,6 @@
 # Case Patterns
 
-Snapshot date: 2026-05-31.
+Snapshot date: 2026-06-12.
 
 These are archetypes distilled from the recovered corpus and reviewed public summaries. They are templates for analysis, not current recommendations.
 
@@ -23,11 +23,24 @@ Pattern:
 - Downstream: CPO, external light sources, 1.6T/3.2T optics, hyperscaler AI networking.
 - Bottleneck candidate: CW/DFB laser source IP and qualified supplier relationships.
 - Scarcity logic: CPO architecture needs reliable light sources; qualification and customer design-ins can be slow; small company may be undercovered relative to downstream importance.
-- Catalysts seen in corpus: opportunity-pipeline growth, customer qualification clues, CHIPS Act/government support, Nasdaq/uplisting discussion, MSCI/index flow, short interest.
+- Catalysts seen in corpus: opportunity-pipeline growth, customer qualification clues, CHIPS Act/government support, Nasdaq/uplisting discussion, MSCI/index flow, major-holder disclosures, short interest.
 - Validation routes: annual reports, interim reports, customer confirmations, grant/award documents, transcript language on margins and demand.
 - Key risk: pipeline is not revenue; customer names may be inferred; financing needs and local-market volatility can dominate.
 
 Use this case to distinguish a future architecture chokepoint from a current-revenue story.
+
+Multi-hop proof-chain template:
+
+| Layer | What to prove | Evidence threshold |
+| --- | --- | --- |
+| Architecture | CPO/LRO/LPO or external light source adoption is real and timed. | Customer/product roadmap, conference transcript, standard, or peer shipment timeline. |
+| Platform | Foundry or reference-design partner can scale the needed process. | Foundry announcement, technical platform document, capacity plan, or customer evaluation. |
+| Customer path | A system integrator or module supplier plausibly needs the candidate. | Named customer disclosure, transcript wording, product page, purchase order, or two independent primary clues. |
+| Capacity | The candidate can actually produce enough at acceptable yield and margin. | Capacity plan, partner capacity, capex, gross-margin guidance, and production-order timing. |
+| Capital structure | Financing helps the thesis rather than consuming it. | Use-of-proceeds clarity, listing rationale, share count impact, warrants/ATM audit, and runway. |
+| Revenue conversion | Pipeline becomes orders, revenue, and cash flow. | Production orders, recognized revenue, backlog conversion, and margin expansion. |
+
+Keep public evidence, inferred customer paths, and unrecognized future revenue in separate rows. Do not let one strong link validate the whole chain.
 
 ## SOI / Soitec Substrate Monopoly Pattern
 
@@ -42,7 +55,20 @@ Pattern:
 
 Use this case for "old business plus new architecture" setups where legacy weakness hides future option value.
 
-## AAOI / LITE / COHR / Optical Transceiver Map
+## AAOI / Visible 1.6T Module Repricing
+
+Pattern:
+
+- Downstream: hyperscaler data-center interconnect, 800G/1.6T/3.2T pluggable optics, AI cluster networking.
+- Bottleneck candidate: a US-based optical module supplier with visible data-center transceiver ramp, laser/fab/assembly exposure, and direct revenue sensitivity.
+- Scarcity logic: visible module suppliers can reprice before deeper upstream layers because orders, capacity, and customer ramps are easier for the market to understand.
+- Catalysts seen in corpus: first volume orders, capacity-ramp commentary, US domestic supply-chain framing, analyst upgrades, and peer optics guidance.
+- Validation routes: company releases, earnings calls, backlog/order language, customer concentration, gross-margin trajectory, capex, and component sourcing.
+- Key risk: module competition, customer concentration, margin compression, rapid consensus formation, and upstream suppliers capturing the better economics.
+
+Use this case to separate a visible near-revenue optics rerating from hidden upstream chokepoints.
+
+## Optical Transceiver Basket / AAOI-LITE-COHR Map
 
 Pattern:
 
@@ -70,12 +96,58 @@ Shared setup:
 - Foreign or regional listing with limited US attention.
 - Hard technical niche that screens poorly on old financials.
 - Potential repricing when US retail/institutions discover the supply-chain role.
+- Possible policy support from EU Chips Act 2.0, sovereignty language, export controls, or strategic-funding programs.
 
 Key risk:
 
 - Cross-market liquidity, translation errors, settlement/friction, local disclosure standards, and reflexive retail flows.
+- Policy headlines may not map to direct funding, named customer demand, or near-term revenue.
 
 Use this pattern when analyzing non-US small/mid caps connected to AI infrastructure.
+
+Policy-catalyst checklist:
+
+- Identify the exact policy source and date.
+- Map the company to an eligible technology layer.
+- Check facility location, customer role, and funding eligibility.
+- Distinguish grant/loan/tax/procurement/export-control mechanisms.
+- Compare potential support with current market cap and financing needs.
+
+## XFAB / Specialty Foundry And European Sovereignty
+
+Pattern:
+
+- Downstream: silicon photonics, InP-on-silicon, SiC/GaN, automotive/industrial semiconductors, and AI hardware localization.
+- Bottleneck candidate: a European specialty foundry whose legacy business may hide future photonics or power optionality.
+- Scarcity logic: specialty process know-how, qualified capacity, regional sovereignty, and limited European alternatives can create a policy-backed chokepoint.
+- Validation routes: annual reports, capex plans, customer/product pages, EU policy documents, foundry-platform releases, and utilization/margin data.
+- Key risk: policy support may be slow; legacy cyclicality can swamp the future option; foundry economics depend on utilization.
+
+Use this case when a European semiconductor stock looks too boring for AI screens but may sit inside a future policy-backed supply chain.
+
+## 800V DC / SiC / GaN Power Delivery
+
+Pattern:
+
+- Downstream: high-density AI data centers, rack-scale systems, power shelves, cooling, and server power conversion.
+- Bottleneck candidate: SiC/GaN foundries, power modules, rectifiers, power-management suppliers, connectors, and high-voltage infrastructure components.
+- Scarcity logic: AI rack density can shift the bottleneck from compute chips to power delivery, efficiency, thermal constraints, and high-volume qualified power semiconductors.
+- Validation routes: Nvidia or hyperscaler architecture documents, power-supply roadmaps, supplier design wins, capacity expansion, customer qualification, and margin/unit-content disclosures.
+- Key risk: the theme can become broad and vague; commodity power suppliers may not capture economics; capex and cyclicality can dominate.
+
+Use this case only after mapping the exact physical layer that becomes scarce under 800V DC or similar data-center power architecture shifts.
+
+## A-Share / China Market Adaptation
+
+Pattern:
+
+- Downstream: China domestic substitution, robotics, AI hardware, power electronics, optics, and advanced manufacturing.
+- Bottleneck candidate: a domestic component supplier with defensible share, customer validation, policy support, and hard-to-replicate manufacturing/process know-how.
+- Scarcity logic: local policy and supply-security needs can reward domestic champions, but China-market liquidity and theme cycles can detach price from evidence.
+- Validation routes: Chinese annual reports, customer names or concentration, exchange filings, policy documents, capacity/margin data, and third-party industry share reports.
+- Key risk: daily limit-up/limit-down mechanics, low float, thin overnight liquidity, theme speculation, translation errors, and exit difficulty.
+
+Use this pattern when applying Serenity-style analysis to A-shares. Add extra friction checks before comparing an A-share setup with a US-listed microcap.
 
 ## NBIS / Neocloud And Compute Infrastructure
 
